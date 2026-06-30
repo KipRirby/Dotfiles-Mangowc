@@ -1,0 +1,108 @@
+
+* {
+
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: 700;
+    font-size: 14px;
+    min-height: 0;
+    border: none;
+    border-radius: 0px;
+}
+
+window#waybar {
+    background-color: transparent;
+    background-color: alpha(@color, 0.99);
+    color: #b8b8b8;
+    border-radius: 10px;
+    /* margin: 5px 10px; */
+    
+}
+
+#custom-logo {
+    background-color: #d08770;
+    color: #1a1a1a;
+    padding: 0 8px;
+    font-weight: bold;
+}
+
+#tags {
+    /* color: @color6; */
+    background-color: transparent;
+    margin-left: 0px;
+    border-radius: 4px;
+}
+
+#tags button {
+    padding: 0 6px;
+    background-color: transparent;
+    color: #1a1a1a;
+    border-radius: 0;
+    min-width: 12px;
+}
+
+#tags button.active {
+
+    background-color: #1a1a1a;
+    color: #1a1a1a;
+    /* font-weight: 900; */
+}
+#tags button {
+  text-shadow: 2px 2px 4px #1a1a1a;
+}
+#tags button.focused {
+    background-color: #1a1a1a;
+    color: #1a1a1a;
+    text-shadow: 2px 2px 4px #1a1a1a;
+    /* font-weight: 900; */
+}
+#tags button.empty {
+  /* color: @color6; */
+  text-shadow: none;
+} 
+#tags button:first-child {
+   border-radius: 10px 0 0 10px;
+   margin-left: 0;
+}
+/* #tags { */
+/*   background-color: transparent; */
+/* } */
+
+#window {
+  margin-left: 10px;
+  color: #1a1a1a;
+  text-shadow: 1px 1px 2px #1a1a1a;
+}
+/* #workspaces button:hover { */
+/*     background-color: transparent; */
+/*     color: @color6; */
+/* } */
+
+#custom-separator1,
+#custom-separator2 {
+    color: #1a1a1a;
+    padding: 0 6px;
+}
+
+#custom-shit {
+    color: #1a1a1a;
+    padding: 0 4px;
+    text-shadow: 1px 1px 4px #1a1a1a;
+}
+#tray {
+    background-color: transparent;
+    padding: 0 8px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+}
+
+#clock {
+    color: #1a1a1a;
+    padding: 0 8px 0 4px;
+    text-shadow: 1px 1px 2px #1a1a1a;
+}
